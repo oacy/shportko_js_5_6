@@ -46,7 +46,7 @@ setInterval(function () {
         else {mseconds = '0' + mseconds;}
     }
    
-    time = hours + ":" + minutes + ":" + seconds + ":" + mseconds;
+    time = hours + ":" + minutes + ":" + seconds + "." + mseconds;
     
     var counter = document.getElementById('counter');
     counter.innerHTML = time;
