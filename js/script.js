@@ -42,8 +42,8 @@ setInterval(function () {
     if (minutes < 10) minutes = '0' + minutes;
     if (seconds < 10) seconds = '0' + seconds;
     if (mseconds < 100) {
-        if (mseconds < 10) mseconds = '00' + mseconds;
-        else mseconds = '0' + mseconds;
+        if (mseconds < 10) {mseconds = '00' + mseconds;}
+        else {mseconds = '0' + mseconds;}
     }
    
     time = hours + ":" + minutes + ":" + seconds + ":" + mseconds;
